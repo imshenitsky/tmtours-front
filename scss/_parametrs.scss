@@ -1,0 +1,61 @@
+$color-gray:#4E4E4E;
+$color-green:#50B557;
+$color-white:#fff;
+$font-family:'proxima_nova_rgregular', Arial, Helvetica, sans-serif;
+$font-family-title: 'Ubuntu', sans-serif;
+$bg-gray:url(../images/grit-gray.jpg);
+$bg-green:url(../images/grit-green.jpg);
+$bg-white:url(../images/grit.jpg);
+$max-width-page:1140px;
+
+@mixin shadow {
+	box-shadow:0 0 8px 0 rgba( 0, 0, 0, 0.7);
+	-webkit-box-shadow:0 0 8px 0 rgba( 0, 0, 0, 0.7);
+	-moz-box-shadow:0 0 8px 0 rgba( 0, 0, 0, 0.7);
+}
+@mixin border-radius($radius){
+	border-radius: $radius;
+}
+@mixin form-input {
+	border:none;
+	margin:0;
+	padding:0;
+	float:left;
+	background:none;
+	outline:none;
+}
+@mixin placeholder-style{
+	&::-webkit-input-placeholder {
+		opacity:0.5;
+	}
+	&:-moz-placeholder {
+		opacity:0.5;
+	}
+	&::-moz-placeholder {
+		opacity:0.5;
+	}
+	&:-ms-input-placeholder {
+		opacity:0.5;
+	}
+}
+@mixin focus-style{
+	&:focus::-webkit-input-placeholder {
+		color:transparent;
+	}
+	&:focus:-ms-input-placeholder {
+		color:transparent;
+	}
+	&::focus::-moz-placeholder {
+		color:transparent;
+	}
+	&:focus::-webkit-input-placeholder {
+		color:transparent;
+	}
+}
+@mixin transition{
+	webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
