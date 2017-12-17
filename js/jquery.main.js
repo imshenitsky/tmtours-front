@@ -60,7 +60,12 @@ $(document).ready(function(){
 			})
 	}
 	$('.product-list').on('click', '.order', function(e){
-		$('#form').popup('show');
+        console.log('click .product-list');
+        if($("#form").length){
+            console.log('#form is visible');
+		}
+
+        $('#form').popup('show');
 		e.preventDefault();
 	});
 	$('.product-list').on('click', 'a', function(e){
@@ -110,40 +115,11 @@ function initSlider(){
 			]
 		});
 	}
-	if($(".product-list").length){
-		if($(window).width() > 1100){
-			var _rows = 2
-		} else{
-			var _rows = 1
-		}
-		$(".product-list").slick({
-			dots: false,
-			infinite: true,
-			arrows: true,
-			slidesToShow: 2,
-			slidesToScroll: 2,
-			//mobileFirst: true,
-			rows: _rows,
-			responsive: [
-				{
-					breakpoint: 1280,
-					settings: {
-					slidesToShow: 2,
-					arrows: false,
-					dots: true
-					}
-				},
-				{
-					breakpoint: 560,
-					settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-					dots: true
-					}
-				}
-			]
-		});
-	}
+
+	/*
+	* ProductSlider initialization moved into tmtours.jquery.showcase.js
+	* */
+
 	if($(".advantages").length){
 		$(".advantages").slick({
 			dots: false,
