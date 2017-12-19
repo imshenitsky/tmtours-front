@@ -425,99 +425,8 @@
 				<a class="close-popup" href="#">close</a>
 			</div>
 		</div>
-		<div class="popup-holder" id="book-tour">
-			<div class="bg">&nbsp;</div>
-			<div class="popup">
-				<div class="head">
-					<i class="icon fa fa-shopping-cart"></i>
-					<h4>Заказать тур:</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aperiam iste asperiores voluptates maxime ducimus nostrum</p>
-				</div>
-				<form action="#" class="form">
-					<fieldset>
-						<div class="form-row">
-							<input class="required" type="text" placeholder="Куда летим">
-						</div>
-						<div class="row-group">
-							<div class="form-row">
-								<input class="input-date date_from" readonly type="text" placeholder="Когда летим">
-							</div>
-							<div class="form-row">
-								<div class="order-wrap">
-									<div class="title">
-										<div class="name">Колчество дней</div>
-									</div>
-									<div class="quantity">
-										<input type="text" value="5">
-										<div class="quantity-btn">
-											<span class="btn-quantity minus">−</span>
-											<span class="btn-quantity plus">+</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<h5>Кто летит:</h5>
-						<div class="row-group">
-							<div class="form-row">
-								<div class="order-wrap">
-									<div class="title">
-										<div class="name">Взрослые</div>
-									</div>
-									<div class="quantity">
-										<input type="text" value="1">
-										<div class="quantity-btn">
-											<span class="btn-quantity minus">−</span>
-											<span class="btn-quantity plus">+</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="order-wrap">
-									<div class="title">
-										<div class="name">Дети</div>
-										<div class="age">до 12 лет</div>
-									</div>
-									<div class="quantity">
-										<input type="text" value="0">
-										<div class="quantity-btn">
-											<span class="btn-quantity minus">−</span>
-											<span class="btn-quantity plus">+</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<h5>Ваши данные:</h5>
-						<div class="row-group">
-							<div class="form-row">
-								<input class="name" type="text" placeholder="Имя*">
-							</div>
-							<div class="form-row">
-								<input class="phone phone-input" type="tel" placeholder="Телефон*">
-							</div>
-						</div>
-						<div class="form-row">
-							<input class="email" type="text" placeholder="Email*">
-						</div>
-						<button>Заказать</button>
-					</fieldset>
-				</form>
-				<div class="popup-info success" style="display: none;">
-					<h5>Заявка отправлена</h5>
-					<i class="fa fa-check"></i>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit, quibusdam fugit quis delectus excepturi officia labore</p>
-				</div>
-				<div class="popup-info fail" style="display: none;>
-					<h5>Что-то пошло не так =(</h5>
-					<i class="fa fa-exclamation-triangle"></i>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit, quibusdam fugit quis delectus excepturi officia labore</p>
-				</div>
-				<a class="close-popup" href="#">close</a>
-			</div>
-		</div>
 		<div id="showcase_indexed_data" style="display: none;"></div>
+		<?php include 'book_tour_modal.php'; ?>
 		<script>
             var api_url = '<?php echo api_url(); ?>';
 		</script>
@@ -541,6 +450,7 @@
 		<script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-thumbs.js?v=2.1.4"></script>
 		<script type="text/javascript" src="js/jquery.main.js"></script>
 		<script type="text/javascript" src="js/tmtours.jquery.showcase.js"></script>
+		<script type="text/javascript" src="js/tmtours.jquery.order.js"></script>
 		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZBMIuroFtRaIq1njmlOgKlipMOeg9gcE"></script>
         <script type="text/javascript">
