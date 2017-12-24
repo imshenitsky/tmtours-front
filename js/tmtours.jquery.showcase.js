@@ -1,6 +1,4 @@
 $(function () {
-    console.log('tmtours.jquery.showcase', api_url);
-
     $.ajax(api_url + '/offers', {
         type: 'GET',
         dataType: 'json',
@@ -46,6 +44,24 @@ $(function () {
             $('#showcase_indexed_data').html(JSON.stringify(index_by_id(data)));
 
             initProductSlider();
+
+            function initPopups (){
+                $('body')
+                    .popup({
+                        "opener":".order",
+                        "popup_holder":"#form",
+                        "popup":".popup",
+                        "close_btn":".close-popup",
+                        "beforeOpen": function(popup) {
+                            $('body').addClass('modal-open');
+                            $(popup).css({
+                                'left': 0,
+                                'top': 0
+                            }).hide();
+                        }
+                    })
+            }
+            initPopups();
         }
     });
 

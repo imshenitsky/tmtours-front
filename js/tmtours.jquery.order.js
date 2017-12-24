@@ -1,7 +1,5 @@
 $(function () {
-    console.log('tmtours.jquery.order.js', api_url);
-
-    $('#book-tour').on('submit', function(e) { //use on if jQuery 1.7+
+    $('#book-tour-form').on('submit', function(e) { //use on if jQuery 1.7+
         e.preventDefault();  //prevent form from submitting
         $.ajax(api_url + '/tour_requests', {
             type: 'POST',
@@ -9,13 +7,9 @@ $(function () {
             data: make_order_request(),
             error: function(jqXHR, textStatus, errorThrown) {
                 alert(jqXHR.responseJSON.error);
-                // console.log('error: ', jqXHR.responseJSON.error);
-                // return show_alert('alert-danger', jqXHR.responseJSON.result);
             },
             success: function(data, textStatus, jqXHR) {
-                $('#modal-greetings').css('display', '');
-                $('#modal-body').css('display', 'none');
-                $('#modal-greetings').html('Thank you!! Buy');
+                display_success_order(data);
             }
         });
     });
@@ -29,6 +23,24 @@ $(function () {
             request[item.name] = item.value;
         }
         return request;
+    }
+
+    function display_success_order(data) {
+        $('#book-tour-modal-greetings').css('display', '');
+        $('#book-tour-area').css('display', 'none');
+        $('#book-tour-modal-greetings').html(make_html_success_msg(data));
+    }
+
+    function make_html_success_msg(data) {
+        str =  '<div class="popup-info success">';
+        str += '    <h5>Заявка отправлена. Ожидайте звонка на номер ' + data.phone + '</h5>';
+        str += '    <i class="fa fa-check"></i>';
+        str += '    <p>Номер заказа #' + data.id + '</p>';
+        str += '    <div>' + data.user_name + ', ' + data.email +'</div>';
+        str += '    <div>' + data.destination + ', вылет ' + data.departure_date + ' на ' + data.nights_count + ' ночей</div>';
+        str += '    <div>Взрослых ' + data.tourists_count + ', детей ' + data.tourists_child_count +'</div>';
+        str += '</div>';
+        return str;
     }
 });
 

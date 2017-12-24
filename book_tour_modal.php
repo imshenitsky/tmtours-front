@@ -6,7 +6,8 @@
             <h4>Заказать тур</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aperiam iste asperiores voluptates maxime ducimus nostrum</p>
         </div>
-        <form action="#" class="form">
+        <div id="book-tour-area">
+        <form action="#" class="form" id="book-tour-form">
             <fieldset>
                 <div class="form-row">
                     <input name="destination" class="required" type="text" placeholder="Куда летим">
@@ -77,11 +78,8 @@
                 <button>Заказать</button>
             </fieldset>
         </form>
-        <div class="popup-info success" style="display: none;">
-            <h5>Заявка отправлена</h5>
-            <i class="fa fa-check"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit, quibusdam fugit quis delectus excepturi officia labore</p>
         </div>
+        <div id="book-tour-modal-greetings"></div>
         <div class="popup-info fail" style="display: none;>
             <h5>Что-то пошло не так =(</h5>
             <i class="fa fa-exclamation-triangle"></i>

@@ -33,25 +33,13 @@ $(document).ready(function(){
 	function initPopups (){
 		$('body')
 			.popup({
-				"opener":".order",
-				"popup_holder":"#form",
-				"popup":".popup",
-				"close_btn":".close-popup",
-				"beforeOpen": function(popup) {
-					$('body').addClass('modal-open');
-					$(popup).css({
-						'left': 0,
-						'top': 0
-					}).hide();
-				}
-			})
-			.popup({
 				"opener":".book-btn",
 				"popup_holder":"#book-tour",
 				"popup":".popup",
 				"close_btn":".close-popup",
 				"beforeOpen": function(popup) {
-					$('body').addClass('modal-open');
+                    cleanOrderTourForm();
+                    $('body').addClass('modal-open');
 					$(popup).css({
 						'left': 0,
 						'top': 0
@@ -59,18 +47,9 @@ $(document).ready(function(){
 				}
 			})
 	}
-	$('.product-list').on('click', '.order', function(e){
-        console.log('click .product-list');
-        if($("#form").length){
-            console.log('#form is visible');
-		}
-
-        $('#form').popup('show');
-		e.preventDefault();
-	});
 	$('.product-list').on('click', 'a', function(e){
 		e.preventDefault();
-	})
+	});
 	//load
 	$(window).load(function(){
 		$('body').addClass('load');
@@ -78,6 +57,12 @@ $(document).ready(function(){
 	//fancy
 	$('.fancy').fancybox();
 });
+function cleanOrderTourForm() {
+	$("#book-tour-form").trigger('reset');
+    $('#book-tour-modal-greetings').html('');
+    $('#book-tour-modal-greetings').css('display', 'none');
+    $('#book-tour-area').css('display', 'block');
+}
 function initSlider(){
 	if($(".main-gallery").length){
 		$(".main-gallery").slick({
@@ -486,25 +471,6 @@ function initPlayerForm(){
               $(this).addClass('error rubberBand animated');
           }
       });
-      form.submit(function(e){
-          input.trigger('blur');
-          if(form.find('.error').size()){
-			/*alert('error');*/
-			return false;
-		} else {
-			// values = $(this).serialize();
-			// $.ajax({
-			// 	url: "feedback.php",
-			// 	type: "post",
-			// 	data: values,
-			// 	success: function(){
-			// 	},
-			// 	error:function(){
-			// 	}
-			// });
-			// return false;
-		}
-		});
 	});
 };
 /* подключение плагинов */
@@ -540,7 +506,7 @@ $.fn.popup = function(o){
    close=$(o.close_btn,popup),
    bg=$('.bg',popup_holder);
    popup.css('margin',0);
-   opener.click(function(e){
+   opener.on('click', function(e){
     o.beforeOpen.apply(this,[popup_holder]);
 	popup_holder.css('left',0);
     popup_holder.fadeIn(400);
