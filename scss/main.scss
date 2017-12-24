@@ -165,27 +165,27 @@ h4, h5, h6{
 	background: $bg-gray no-repeat 0 0;
 	background-size: 100% auto;
 	@include shadow;
-	
 }
 .logo{
-	background: url(../images/logo.png) no-repeat;
-	background-size: 100% 100%;
-	width:70px;
-	height:70px;
+	background: url(../images/logo-white-bg.png) no-repeat;
+	background-size: 100% auto;
+	width:145px;
+	height:40px;
 	overflow:hidden;
 	text-indent:-9999px;
 	position: absolute;
 	float: left;
-	margin: -5px 0 0 60px;
+	margin: 8px 0 0 60px;
 	-webkit-transition: all 200ms linear;
 	-moz-transition: all 200ms linear;
 	-ms-transition: all 200ms linear;
 	-o-transition: all 200ms linear;
 	transition: all 200ms linear;
 }
+body:not(.index) .logo,
 .head-fixed #header .logo{
-	background: url(../images/logo2.png) no-repeat;
-	background-size: 100% 100%;
+	background: url(../images/logo-black-bg.png) no-repeat;
+	background-size: 100% auto;
 }
 .logo a{
 	display:block;
@@ -1382,6 +1382,8 @@ h4, h5, h6{
 		margin: 0 auto 30px;
 		display: block;
 		float: none;
+		background: url(../images/logo-black-bg.png) no-repeat;
+		background-size: 100% auto;
 	}
 	.copy{
 		display: block;
@@ -1605,6 +1607,7 @@ h4, h5, h6{
 				width: 20px;
 				text-align: center;
 				margin: 0 4px 0 0;
+				font-size: 16px;
 			}
 		}
 	}
@@ -1677,7 +1680,7 @@ h4, h5, h6{
 		text-align: center;
 	}
 	.fa{
-		font-size: 16px;
+		font-size: 30px;
 		line-height: 30px;
 		margin: 0 0 20px;
 	}
@@ -1738,10 +1741,7 @@ h4, h5, h6{
 		height: 40px;
 	}
 	.logo{
-		width: 60px;
-		height: 60px;
-		background-size: 60px 60px;
-		margin-top: -10px;
+		margin-top: 0px;
 		margin-left: 10px;
 	}
 	.btn-open, .btn-close{

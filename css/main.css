@@ -190,15 +190,15 @@ h4, h5, h6 {
 }
 
 .logo {
-  background: url(../images/logo-nick-4.png) no-repeat;
-  background-size: 100% 100%;
-  width: 200px;
+  background: url(../images/logo-white-bg.png) no-repeat;
+  background-size: 100% auto;
+  width: 145px;
   height: 40px;
   overflow: hidden;
   text-indent: -9999px;
   position: absolute;
   float: left;
-  margin: 14px 0 0 18px;
+  margin: 8px 0 0 60px;
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -ms-transition: all 200ms linear;
@@ -206,9 +206,10 @@ h4, h5, h6 {
   transition: all 200ms linear;
 }
 
+body:not(.index) .logo,
 .head-fixed #header .logo {
-  background: url(../images/logo2.png) no-repeat;
-  background-size: 100% 100%;
+  background: url(../images/logo-black-bg.png) no-repeat;
+  background-size: 100% auto;
 }
 
 .logo a {
@@ -1642,6 +1643,8 @@ h4, h5, h6 {
   margin: 0 auto 30px;
   display: block;
   float: none;
+  background: url(../images/logo-black-bg.png) no-repeat;
+  background-size: 100% auto;
 }
 
 #footer .copy {
@@ -1897,6 +1900,7 @@ h4, h5, h6 {
   width: 20px;
   text-align: center;
   margin: 0 4px 0 0;
+  font-size: 16px;
 }
 
 .popup h5 {
@@ -1977,7 +1981,7 @@ h4, h5, h6 {
 }
 
 .popup-info .fa {
-  font-size: 16px;
+  font-size: 30px;
   line-height: 30px;
   margin: 0 0 20px;
 }
@@ -2038,10 +2042,7 @@ h4, h5, h6 {
     height: 40px;
   }
   .logo {
-    width: 60px;
-    height: 60px;
-    background-size: 60px 60px;
-    margin-top: -10px;
+    margin-top: 0px;
     margin-left: 10px;
   }
   .btn-open, .btn-close {

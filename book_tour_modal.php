@@ -80,7 +80,7 @@
         </form>
         </div>
         <div id="book-tour-modal-greetings"></div>
-        <div class="popup-info fail" style="display: none;>
+        <div class="popup-info fail" style="display: none;">
             <h5>Что-то пошло не так =(</h5>
             <i class="fa fa-exclamation-triangle"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit, quibusdam fugit quis delectus excepturi officia labore</p>

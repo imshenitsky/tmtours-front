@@ -475,7 +475,7 @@
 				    });
 	                var marker = new google.maps.Marker({
 	                    position: new google.maps.LatLng(49.994384,36.236568),
-	                    icon: 'images/map-logo.png',
+	                    icon: 'images/map-logo2.png',
 	                    map: map
 	               });
 	                setTimeout(function(){
