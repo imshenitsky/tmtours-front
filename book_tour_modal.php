@@ -79,7 +79,7 @@
             </fieldset>
         </form>
         </div>
-        <div id="book-tour-modal-greetings"></div>
+        <div id="book-tour-greetings"></div>
         <div class="popup-info fail" style="display: none;">
             <h5>Что-то пошло не так =(</h5>
             <i class="fa fa-exclamation-triangle"></i>

@@ -380,52 +380,8 @@
 			</footer>
 		</div>
 		<a href="#" class="btn-top"><i class="fa fa-chevron-up"></i></a>
-		<div class="popup-holder" id="form">
-			<div class="bg">&nbsp;</div>
-			<div class="popup">
-				<div class="head">
-					<i class="icon fa fa-shopping-cart"></i>
-					<h4>Заказать тур:</h3>
-					<p><strong>Hilton, 4*</strong> <span>Египет</span> Хургада</p>
-				</div>
-				<div class="popup-info">
-					<div class="visual">
-						<img src="images/provider-product1.jpg" alt="image description">
-						<span>Hilton, 4*</span>
-					</div>
-					<div class="title">
-						<span class="price">$500</span>
-						<p>Вылет 01.02.2018, из Киева, на 7 ночей</p>
-						<ul class="list-info">
-							<li><i class="fa fa-bed"></i>Double</li>
-							<li><i class="fa fa-cutlery"></i>All</li>
-						</ul>
-					</div>
-				</div>
-				<form action="#" class="form">
-					<fieldset>
-						<h5>Ваши данные:</h5>
-						<div class="row-group">
-							<div class="form-row">
-								<input class="name" type="text" placeholder="Имя*">
-							</div>
-							<div class="form-row">
-								<input class="phone phone-input" type="tel" placeholder="Телефон*">
-							</div>
-						</div>
-						<div class="form-row">
-							<input class="email" type="text" placeholder="Email*">
-						</div>
-						<div class="form-row">
-							<textarea placeholder="Комментари"></textarea>
-						</div>
-						<button>Купить</button>
-					</fieldset>
-				</form>
-				<a class="close-popup" href="#">close</a>
-			</div>
-		</div>
 		<div id="showcase_indexed_data" style="display: none;"></div>
+		<?php include 'book_showcase_modal.php'; ?>
 		<?php include 'book_tour_modal.php'; ?>
 		<script>
             var api_url = '<?php echo api_url(); ?>';
@@ -449,6 +405,7 @@
 		<link rel="stylesheet" href="js/fancybox/helpers/jquery.fancybox-thumbs.css?v=2.1.4" type="text/css" media="screen" />
 		<script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-thumbs.js?v=2.1.4"></script>
 		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<script type="text/javascript" src="js/tmtours.jquery.form.js"></script>
 		<script type="text/javascript" src="js/tmtours.jquery.showcase.js"></script>
 		<script type="text/javascript" src="js/tmtours.jquery.order.js"></script>
 		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

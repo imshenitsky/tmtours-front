@@ -38,7 +38,7 @@ $(document).ready(function(){
 				"popup":".popup",
 				"close_btn":".close-popup",
 				"beforeOpen": function(popup) {
-                    cleanOrderTourForm();
+                    cleanForm('book-tour');
                     $('body').addClass('modal-open');
 					$(popup).css({
 						'left': 0,
@@ -57,12 +57,6 @@ $(document).ready(function(){
 	//fancy
 	$('.fancy').fancybox();
 });
-function cleanOrderTourForm() {
-	$("#book-tour-form").trigger('reset');
-    $('#book-tour-modal-greetings').html('');
-    $('#book-tour-modal-greetings').css('display', 'none');
-    $('#book-tour-area').css('display', 'block');
-}
 function initSlider(){
 	if($(".main-gallery").length){
 		$(".main-gallery").slick({
