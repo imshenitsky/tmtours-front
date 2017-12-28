@@ -461,6 +461,10 @@ function get_offers() {
 }
 
 function php_env() {
+  if (isset($_GET['env']) && $_GET['env'] == 'production') {
+    return 'production';
+  }
+
   if ($_SERVER['HTTP_HOST'] == 'tmtours.local') {
     return 'development';
   }
