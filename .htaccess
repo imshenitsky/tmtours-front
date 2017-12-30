@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^articles/([A-Za-z0-9-]+)/?$ article.php?id=$1 [NC]

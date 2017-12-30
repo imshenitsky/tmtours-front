@@ -44,7 +44,7 @@ function html_success_tour_request_msg(data) {
     str =  '<div class="popup-info success">';
     str += '    <h5>Заявка отправлена. Ожидайте звонка на номер ' + data.phone + '</h5>';
     str += '    <i class="fa fa-check"></i>';
-    str += '    <p>Номер заказа #' + data.id + '</p>';
+    str += '    <p>Номер заказа: ' + data.id + '</p>';
     str += '    <div>' + data.user_name + ', ' + data.email +'</div>';
     str += '    <div>' + data.destination + ', вылет ' + data.departure_date + ' на ' + data.nights_count + ' ночей</div>';
     str += '    <div>Взрослых ' + data.tourists_count + ', детей ' + data.tourists_child_count +'</div>';
@@ -54,8 +54,12 @@ function html_success_tour_request_msg(data) {
 
 function html_success_order_msg(data) {
     str =  '<div class="popup-info success">';
-    str += '    <h5>Заявка отправлена. Ожидайте звонка на номер ' + 'erwrwer' + '</h5>';
+    str += '    <h5>' + data.name + ', cпасибо за заказ в TmTours.</h5>';
     str += '    <i class="fa fa-check"></i>';
+    str += '    <p>Номер заказа: ' + data.id + '</p>';
+    str += '    <p>Цена: ' + data.price + '</p>';
+    str += '    <div>' + data.arrival_country.name + ', ' + data.arrival_city.name +'</div>';
+    str += '    <div>' + data.departure_to_sentence + '</div>';
     str += '</div>';
     return str;
 }
