@@ -231,9 +231,10 @@ function initSlider(){
 	}
 }
 function initFlexImage(){
-	$('.flex-image').each(function(){
-		$(this).closest('.flex-img-holder').css({
-			'background':'url('+$(this).attr('src')+') no-repeat 50% 50%'
+	$('.flex-image, .blog .visual img').each(function(){
+		$(this).closest('.flex-img-holder, .blog .visual').css({
+			'background':'url('+$(this).attr('src')+') no-repeat 50% 50%',
+			'background-size':'cover'
 		})
 	});
 }

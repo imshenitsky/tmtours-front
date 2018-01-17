@@ -14,7 +14,7 @@
                 </div>
                 <div class="row-group">
                     <div class="form-row">
-                        <input name="departure_date" class="input-date date_from" readonly type="text" placeholder="Когда летим">
+                        <input name="departure_date" class="input-date date_from required" readonly type="text" placeholder="Когда летим">
                     </div>
                     <div class="form-row">
                         <div class="order-wrap">

@@ -1273,6 +1273,11 @@ body:not(.index) .logo,
   margin: 0 -20px 20px;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
+  height: 255px;
+}
+
+.blog .visual img {
+  visibility: hidden;
 }
 
 .blog .name {
@@ -1292,6 +1297,7 @@ body:not(.index) .logo,
 
 .blog p {
   margin: 0 0 10px;
+  min-height: 120px;
 }
 
 .blog a {

@@ -3,21 +3,30 @@
 function formHandle(id, path) {
     $('#' + id + '-form').on('submit', function(e) { //use on if jQuery 1.7+
         e.preventDefault();  //prevent form from submitting
-        $.ajax(api_url + '/' + path, {
-            type: 'POST',
-            dataType: 'json',
-            data: make_request(id + '-form'),
-            error: function(jqXHR, textStatus, errorThrown) {
-                alert(jqXHR.responseJSON.error);
-            },
-            success: function(data, textStatus, jqXHR) {
-                $('#' + id + '-area').css('display', 'none');
-                $('#' + id + '-greetings').css('display', '');
+        var _form= $(this),
+            _input= _form.find('input');
+            _input.trigger('blur');
 
-                var html = (path == 'tour_requests') ? html_success_tour_request_msg(data) : html_success_order_msg(data);
-                $('#' + id + '-greetings').html(html);
+          if(_form.find('.error').size()){
+                console.log('ошибка ввода');
+                return false;
+            } else {
+                $.ajax(api_url + '/' + path, {
+                    type: 'POST',
+                    dataType: 'json',
+                    data: make_request(id + '-form'),
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        alert(jqXHR.responseJSON.error);
+                    },
+                    success: function(data, textStatus, jqXHR) {
+                        $('#' + id + '-area').css('display', 'none');
+                        $('#' + id + '-greetings').css('display', '');
+
+                        var html = (path == 'tour_requests') ? html_success_tour_request_msg(data) : html_success_order_msg(data);
+                        $('#' + id + '-greetings').html(html);
+                    }
+                });
             }
-        });
     });
 }
 

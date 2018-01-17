@@ -1057,6 +1057,10 @@ body:not(.index) .logo,
 		margin: 0 -20px 20px;
 		border-radius:5px 5px 0 0;
 		overflow: hidden;
+		height: 255px;
+		img{
+			visibility: hidden;
+		}
 	}
 	.name{
 		display: inline-block;
@@ -1073,6 +1077,7 @@ body:not(.index) .logo,
 	}
 	p{
 		margin: 0 0 10px;
+		min-height: 120px;
 	}
 	a{
 		font-family: $font-family-title;
@@ -2167,7 +2172,6 @@ body:not(.index) .logo,
 .load .main-preloader-body .main-preloader {
 	position: absolute;
 }
-
 
 
 /*!
