@@ -21,6 +21,6 @@ include 'header.php';
 </div>
 
 <?php
-$exclude_js = ['forms', 'map'];
+$exclude_js = array('forms', 'map');
 include 'footer.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
 $header_title   = 'TMTours Поиск и бронирование';
-$exclude_js     = [];
+$exclude_js     = array();
 $body_class     = 'index';
 include 'header.php';
 ?>

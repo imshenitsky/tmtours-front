@@ -559,6 +559,7 @@ $.fn.popup = function(o){
   $('body').keydown(function(e){
    if(e.keyCode=='27'){
     popup_holder.fadeOut(400);
+    $('body').removeClass('modal-open');
    }
   })
  });

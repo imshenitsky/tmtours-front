@@ -1,7 +1,7 @@
 <?php
 $id           = $_GET['id'];
 $article_path = "articles/$id.html";
-$articles     = ['detroit-aka-motor-city' => 'Detroit aka Motor City'];
+$articles     = array('detroit-aka-motor-city' => 'Detroit aka Motor City');
 
 if (file_exists($article_path)) {
     $header_title    = $articles[$id];
@@ -40,6 +40,6 @@ include 'header.php';
 </div>
 
 <?php
-$exclude_js = ['forms', 'map'];
+$exclude_js = array('forms', 'map');
 include 'footer.php';
 ?>
