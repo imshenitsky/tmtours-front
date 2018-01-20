@@ -1,4 +1,3 @@
-<?php include 'functions.php'; ?>
         <footer id="footer">
             <div class="center">
                 <div class="f-holder">

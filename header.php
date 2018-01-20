@@ -1,3 +1,4 @@
+<?php include 'functions.php'; ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -17,6 +18,18 @@
 		<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png" />
 		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png" />
 		<style>.request-popup{left:-9999px;top:-9999px;}.main-preloader-body{position:fixed;z-index:2000;left:0;top:0;width:100%;height:100%;background-color:#fff;-webkit-transition:opacity .2s linear;transition:opacity .2s linear}.main-preloader{position:fixed;top:50%;left:50%;margin:-10px 0 0 -50px}.main-preloader span{position:absolute;width:20px;height:20px;background:#50B557;opacity:.5;border-radius:20px;animation:preloader 1s infinite ease-in-out}.main-preloader span:nth-child(2){left:20px;animation-delay:.2s}.main-preloader span:nth-child(3){left:40px;animation-delay:.4s}.main-preloader span:nth-child(4){left:60px;animation-delay:.6s}.main-preloader span:nth-child(5){left:80px;animation-delay:.8s}@keyframes preloader{0%,100%{opacity:.3;transform:translateY(0);box-shadow:0 0 3px rgba(0,0,0,.1)}50%{opacity:1;transform:translateY(-10px);background:#4E4E4E;box-shadow:0 20px 3px rgba(0,0,0,.05)}}</style>
+
+        <?php if (php_env() == 'production') { ?>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112803707-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'UA-112803707-1');
+            </script>
+        <?php } ?>
 	</head>
 	<body class="<?= $body_class; ?>">
 		<div class="main-preloader-body">
