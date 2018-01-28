@@ -13,8 +13,7 @@ include 'header.php';
 								<img class="flex-image" src="images/slider_uae.jpg" alt="image description">
 								<div class="slider-info">
 									<h3>ОАЭ</h3>
-									<p>Отдых на море</p>
-									<a href="inner.html">show test</a>
+									<a href="articles/united-arab-emirates">О стране</a>
 								</div>
 							</div>
 							<div class="flex-img-holder">
@@ -42,7 +41,7 @@ include 'header.php';
 								<img class="flex-image" src="images/slider_sri.jpg" alt="image description">
 								<div class="slider-info">
 									<h3>ШРИ-ЛАНКА</h3>
-									<p>Отдых на море</p>
+									<p><a href="articles/sri-lanka-country">На берегу океана</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
@@ -83,12 +82,12 @@ include 'header.php';
 							<div class="blog-item">
 								<div class="holder">
 									<div class="visual">
-										<img src="http://2.bp.blogspot.com/-evcO_mIx2IY/VcJGuIXVFBI/AAAAAAAA5YU/xnvezS0Dzac/s1600/IMG_5958.JPG" alt="image description">
+										<img src="https://s3-us-west-2.amazonaws.com/tmtours/articles/shri-lanka-2.jpg" alt="image description">
 									</div>
-									<a href="articles/detroit-aka-motor-city" class="name">Detroit aka Motor City</a>
+									<a href="articles/sri-lanka-journey" class="name">Шри-Ланка</a>
 									<span class="date">24-11-2017, 13:40</span>
-									<p>Детройт: слабые здесь будут убиты и съедены. Так говорят о Детройте американцы.</p>
-									<a href="articles/detroit-aka-motor-city" class="more">Читать...</a>
+									<p>Построенная в V веке на вершине горы каменная крепость была надежным укрытием для короля. После небольшого подъема по каменным ступеням взору открываются 11 удивительных фресок - полуобнаженные женщины, изображения которых наносились натуральными красками особого состава.</p>
+									<a href="articles/sri-lanka-journey" class="more">Читать...</a>
 								</div>
 							</div>
 							<div class="blog-item">
@@ -236,11 +235,11 @@ include 'header.php';
 							<div class="reviews-item">
 								<div class="holder">
 									<div class="head">
-										<div class="visual"><img src="images/joinuo.png" alt=""></div>
-										<strong>Иванов Иван</strong>
-										<span>Designer</span>
+										<div class="visual"><img src="images/reviewers/jessica_briand.png" alt=""></div>
+										<strong>Марьяна</strong>
+										<span>Киев</span>
 									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti accusamus quo, cumque esse ex ducimus adipisci itaque, voluptate temporibus deserunt explicabo modi praesentium quos id delectus hic odio doloremque! Vel.</p>
+									<p>Бронировали у Лины тур в Тунис, с вылетом из Киева. Оформлять тур было очень быстро и комфортно, на выбор отеля и оплату потратили всего 10 минут. Один из первых просчитанных вариантов отеля нам подошел, оплатили на карту, нам сбросили чек об оплате на почту. Мы с мужем провели отличный отдых, страна очень европейская, чистая с комфортным климатом. Обязательно нужно взять экскурсию в Сахару! Это было незабываемо!</p>
 								</div>
 							</div>
 							<div class="reviews-item">

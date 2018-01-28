@@ -3,7 +3,7 @@
                 <div class="f-holder">
                     <strong class="logo"><a href="index.html"></a></strong>
                     <ul class="socials">
-                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/tmtours.com.ua/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fa fa-telegram"></i></a></li>
@@ -14,8 +14,8 @@
                     <h5>Свяжитесь с нами</h5>
                     <div class="row">
                         <i class="fa fa-phone"></i>
-                        <span><a href="tel:+38 999 999 99 99">+38 999 999 99 99</a></span>
-                        <span><a href="tel:+38 999 999 99 99">+38 999 999 99 99</a></span>
+                        <span><a href="tel:+38 097 417 45 35">(097) 417-45-35</a></span>
+                        <span><a href="tel:+38 067 614 67 86">(067) 614-67-86</a></span>
                     </div>
                     <div class="row">
                         <i class="fa fa-map-marker"></i>
@@ -33,7 +33,7 @@
                         <span>Вс: выходной</span>
                     </div>
                 </div>
-                <span class="copy">2017 &copy; Все права защищены</span>
+                <span class="copy">&copy; TmTours <?php echo date("Y"); ?></span>
             </div>
         </footer>
 		</div>
@@ -88,7 +88,7 @@
                         };
                         var mapElement = document.getElementById('map');
                         var map = new google.maps.Map(mapElement, mapOptions);
-                        var contentString = '<div class="tooltip-map"><div class="address">Театральный переулок, 4 <br/> 5 Этаж</div><span class="tel">т. - 999 999 99 99</span></div>';
+                        var contentString = '<div class="tooltip-map"><div class="address">Театральный переулок, 4 <br/> 5 Этаж</div><span class="tel">т. (097) 417-45-35</span></div>';
                         var infowindow = new google.maps.InfoWindow({
                             content: contentString
                         });

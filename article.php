@@ -1,7 +1,10 @@
 <?php
 $id           = $_GET['id'];
 $article_path = "articles/$id.html";
-$articles     = array('detroit-aka-motor-city' => 'Detroit aka Motor City');
+$articles     = array(
+                    'united-arab-emirates'      => 'Объединённые Арабские Эмираты',
+                    'sri-lanka-journey'         => 'Шри-Ланка',
+                    'sri-lanka-country'         => 'Шри-Ланка');
 
 if (file_exists($article_path)) {
     $header_title    = $articles[$id];
@@ -28,6 +31,20 @@ include 'header.php';
     .art_big_img {
         width: 1000px;
         height: 710px;
+    }
+    .leftimg {
+        float:left;
+        margin: 7px 17px 7px 0;
+   }
+   .rightimg  {
+        float: right;
+        margin: 8px 0px 0px 25px;
+   }
+    p {
+        text-indent: 1.5em;
+        text-align: justify;
+        margin: 0px !important;
+        padding: 0px !important;
     }
 </style>
 <div id="main">
