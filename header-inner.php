@@ -48,10 +48,10 @@
 					<a class="btn-open" href="#"><span></span></a>
 					<ul>
 						<li><a href="search.php">Поиск тура</a></li>
-						<li class="nav-item"><a href="#2">Горящие туры</a></li>
-						<li class="nav-item"><a href="#3">Заказать тур</a></li>
-						<li class="nav-item"><a href="#4">Преимущества работы</a></li>
-						<li class="nav-item"><a href="#5">Контакты</a></li>
+						<li class="nav-item"><a href="index.php#2">Горящие туры</a></li>
+						<li class="nav-item"><a href="index.php#3">Заказать тур</a></li>
+						<li class="nav-item"><a href="index.php#4">Преимущества работы</a></li>
+						<li class="nav-item"><a href="index.php#5">Контакты</a></li>
 					</ul>
 				</nav>
 				<div class="mobile-sidebar">
@@ -59,10 +59,10 @@
 					<div class="mobile-menu">
 						<ul>
 							<li><a href="search.php">Поиск тура</a></li>
-							<li class="nav-item"><a href="#2">Горящие туры</a></li>
-							<li class="nav-item"><a href="#3">Заказать тур</a></li>
-							<li class="nav-item"><a href="#4">Преимущества работы</a></li>
-							<li class="nav-item"><a href="#5">Контакты</a></li>
+							<li class="nav-item"><a href="index.php#2">Горящие туры</a></li>
+							<li class="nav-item"><a href="index.php#3">Заказать тур</a></li>
+							<li class="nav-item"><a href="index.php#4">Преимущества работы</a></li>
+							<li class="nav-item"><a href="index.php#5">Контакты</a></li>
 						</ul>
 					</div>
 				</div>

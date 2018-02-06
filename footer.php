@@ -1,7 +1,7 @@
         <footer id="footer">
             <div class="center">
                 <div class="f-holder">
-                    <strong class="logo"><a href="index.html"></a></strong>
+                    <strong class="logo"><a href="index.php"></a></strong>
                     <ul class="socials">
                         <li><a href="https://www.facebook.com/tmtours.com.ua/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -46,27 +46,27 @@
 		</script>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,800italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
-		<link rel="stylesheet" href="/css/animate.css" type="text/css" />
-		<link rel="stylesheet" href="/css/main.css" type="text/css" />
-		<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
-		<script type="text/javascript" src="/js/wow.js"></script>
-		<script type="text/javascript" src="/js/plugins-scroll.js"></script>
-		<script type="text/javascript" src="/js/slick.min.js"></script>
-		<script type="text/javascript" src="/js/jquery-ui.1.10.3.min.js"></script>
-		<script type="text/javascript" src="/js/jquery.ui.datepicker-ru.js"></script>
-		<script type="text/javascript" src="/js/masked-input.js"></script>
-		<script type="text/javascript" src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-		<link rel="stylesheet" href="/js/fancybox/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
-		<script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js?v=2.1.4"></script>
-		<link rel="stylesheet" href="/js/fancybox/helpers/jquery.fancybox-buttons.css?v=2.1.4" type="text/css" media="screen" />
-		<script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-buttons.js?v=2.1.4"></script>
-		<link rel="stylesheet" href="/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=2.1.4" type="text/css" media="screen" />
-		<script type="text/javascript" src="/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=2.1.4"></script>
-        <script type="text/javascript" src="/js/jquery.main.js"></script>
+		<link rel="stylesheet" href="css/animate.css" type="text/css" />
+		<link rel="stylesheet" href="css/main.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/wow.js"></script>
+		<script type="text/javascript" src="js/plugins-scroll.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.1.10.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.datepicker-ru.js"></script>
+		<script type="text/javascript" src="js/masked-input.js"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.4"></script>
+		<link rel="stylesheet" href="js/fancybox/helpers/jquery.fancybox-buttons.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-buttons.js?v=2.1.4"></script>
+		<link rel="stylesheet" href="js/fancybox/helpers/jquery.fancybox-thumbs.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-thumbs.js?v=2.1.4"></script>
+        <script type="text/javascript" src="js/jquery.main.js"></script>
 		<?php if (!in_array("forms", $exclude_js)) { ?>
-		    <script type="text/javascript" src="/js/tmtours.jquery.form.js"></script>
-		    <script type="text/javascript" src="/js/tmtours.jquery.showcase.js"></script>
-		    <script type="text/javascript" src="/js/tmtours.jquery.order.js"></script>
+		    <script type="text/javascript" src="js/tmtours.jquery.form.js"></script>
+		    <script type="text/javascript" src="js/tmtours.jquery.showcase.js"></script>
+		    <script type="text/javascript" src="js/tmtours.jquery.order.js"></script>
 		<?php }	?>
 		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 

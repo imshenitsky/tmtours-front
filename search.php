@@ -3,7 +3,7 @@ $header_title = 'Поиск тура';
 
 // Header details
 $body_class     = '';
-include 'header.php';
+include 'header-inner.php';
 ?>
 
 <div id="main">

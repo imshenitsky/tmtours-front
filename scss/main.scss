@@ -1,7 +1,7 @@
 @import 'parametrs';
 @font-face {
 	font-family: 'Conv_ProximaNova-Bold';
-	src: url('..../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot');
 	src: local('аВТб'), url('../fonts/ProximaNova-Bold.woff') format('woff'), 
 		url('../fonts/ProximaNova-Bold.ttf') format('truetype'), 
 		url('../fonts/ProximaNova-Bold.svg') format('svg');
@@ -455,7 +455,7 @@ body:not(.index) .logo,
 		transition: background-size 5000ms ease 0ms !important;
 	}
 	.slick-active{
-		background-size: auto 100% !important;
+		background-size: auto 110% !important;
 	}
 	.flex-image{
 		display: none;
@@ -2172,8 +2172,32 @@ body:not(.index) .logo,
 .load .main-preloader-body .main-preloader {
 	position: absolute;
 }
-
-
+#tour_search_module{
+	overflow-x: auto !important;
+}
+.list{
+	margin:0 0 20px;
+	padding:0;
+	list-style:none;
+}
+.list li{
+	padding: 0 0 0 18px;
+	position: relative;
+}
+.list li:after{
+	content:'';
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	left: 0;
+	top: 8px;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background: $color-green;
+}
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
