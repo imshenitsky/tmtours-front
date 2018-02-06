@@ -49,24 +49,12 @@ include 'header.php';
         margin: 0px !important;
         padding: 0px !important;
     }
-    ul.ort {
-        margin: 2px 30px 2px;
-        list-style: outside;
-    }
 </style>
 <div id="main">
     <section class="section main-section">
         <div class="center">
             <h1><?= $header_title; ?></h1>
             <?= $article_content; ?>
-            <ul class="list">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-            </ul>
         </div>
     </section>
 </div>
