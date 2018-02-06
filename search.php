@@ -10,12 +10,8 @@ include 'header.php';
     <section class="section main-section">
         <div class="center">
             <h1><?= $header_title; ?></h1>
-            <div class="table-responsive">
-                <div class="tour_search">
-                    <div id="tour_search_module"></div>
-                </div>
-                <script src="https://www.ittour.com.ua/tour_search.jsx?id=39642D911705265G108O17928&ver=1&type=2970"></script>
-            </div>
+            <div id="tour_search_module"></div>
+            <script src="https://www.ittour.com.ua/tour_search.jsx?id=298605DGO164481358193212&ver=1&type=2970"></script>
         </div>
     </section>
 </div>

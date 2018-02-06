@@ -20,21 +20,21 @@ include 'header.php';
 								<img class="flex-image" src="images/slider_are.jpg" alt="image description">
 								<div class="slider-info">
 									<h3>ЕГИПЕТ</h3>
-									<p>Отдых на море</p>
+									<p><a href="articles/egypt-country">Отдых на море</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slide_europe_0417.jpg" alt="image description">
+								<img class="flex-image" src="images/slider-montenegro.jpg" alt="image description">
 								<div class="slider-info">
-									<h3>ЕВРОПА</h3>
-									<p>Lorem ipsum dolor...</p>
+									<h3>ЧЕРНОГОРИЯ</h3>
+									<p><a href="articles/montenegro-country">Вершины величественных гор</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider_dom.jpg" alt="image description">
+								<img class="flex-image" src="images/slider-turkey.jpg" alt="image description">
 								<div class="slider-info">
-									<h3>ДОМИНИКАНА</h3>
-									<p>Отдых на море</p>
+									<h3>ТУРЦИЯ</h3>
+									<p><a href="articles/turkey-country">Страна семейного отдыха</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
@@ -55,8 +55,8 @@ include 'header.php';
 						<div class="main-gallery-nav">
 							<div>ОАЭ</div>
 							<div>ЕГИПЕТ</div>
-							<div>ЕВРОПА</div>
-							<div>ДОМИНИКАНА</div>
+							<div>ЧЕРНОГОРИЯ</div>
+							<div>ТУРЦИЯ</div>
 							<div>ШРИ-ЛАНКА</div>
 							<div>АВСТРИЯ</div>
 						</div>
@@ -155,22 +155,22 @@ include 'header.php';
 							<div class="advantages-item">
 								<span class="fa fa-exclamation-triangle"></span>
 								<h4>Ответственно</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi animi facere quasi obcaecati esse porro, autem.</p>
+								<p>У нас каждый турист особенный, мы несем ответственность за отдых и комфорт. Для нас лучшая награда за проделанную работу - это счастливые и отдохнувшие туристы.</p>
 							</div>
 							<div class="advantages-item">
 								<span class="fa fa-star"></span>
 								<h4>Профессионально</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi animi facere quasi obcaecati esse porro, autem.</p>
+								<p>Мы регулярно повышаем уровень профессионализма - посещаем семинары, ездим в рекламные туры, слушаем вебинары, получаем актуальную информацию и отзывы от наших туристов.</p>
 							</div>
 							<div class="advantages-item">
 								<span class="fa fa-users"></span>
 								<h4>Внимательно</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi animi facere quasi obcaecati esse porro, autem.</p>
+								<p>Мы обращаем внимание на все требования и пожелания туристов, тщательно продумываем отдых до мелочей. Следим за всеми изменениями по направлению и забронированному продукту. С нами Вы будете в надежных руках.</p>
 							</div>
 							<div class="advantages-item">
 								<span class="fa fa-map-marker"></span>
 								<h4>Удобно</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi animi facere quasi obcaecati esse porro, autem.</p>
+								<p>С нами можно сэкономить время и забронировать тур не посещая офис. Просчеты туров, подбор вариантов и консультацию мы можем осуществлять удаленно. У нас также есть офис в самом центре Харькова, в который можно попасть в любое удобное для Вас время по договоренности.</p>
 							</div>
 						</div>
 					</div>

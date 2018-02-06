@@ -4,7 +4,10 @@ $article_path = "articles/$id.html";
 $articles     = array(
                     'united-arab-emirates'      => 'Объединённые Арабские Эмираты',
                     'sri-lanka-journey'         => 'Шри-Ланка',
-                    'sri-lanka-country'         => 'Шри-Ланка');
+                    'sri-lanka-country'         => 'Шри-Ланка',
+                    'egypt-country'             => 'Египет',
+                    'turkey-country'            => 'Турция',
+                    'montenegro-country'        => 'Черногория');
 
 if (file_exists($article_path)) {
     $header_title    = $articles[$id];
@@ -45,6 +48,10 @@ include 'header.php';
         text-align: justify;
         margin: 0px !important;
         padding: 0px !important;
+    }
+    ul.ort {
+        margin: 2px 30px 2px;
+        list-style: outside;
     }
 </style>
 <div id="main">
