@@ -23,32 +23,40 @@ include 'header.php';
 ?>
 
 <style>
-    .art_small_img {
-        width: 280px;
-        height: 200px;
+    .img.art_small_img {
+        max-width: 280px;
     }
-    .art_middle_img {
-        width: 500px;
-        height: 310px;
+    .img.art_middle_img {
+        max-width: 500px;
     }
-    .art_big_img {
-        width: 1000px;
-        height: 710px;
+    .img.art_big_img {
+        max-width: 1000px;
     }
-    .leftimg {
+    .img.art_small_img img, .img.art_middle_img img, .img.art_big_img img{
+        width: 100%;
+        height: auto;
+    }
+    .img.leftimg {
         float:left;
-        margin: 7px 17px 7px 0;
+        margin: 7px 20px 20px 0;
    }
-   .rightimg  {
+   .img.rightimg  {
         float: right;
-        margin: 8px 0px 0px 25px;
+        margin: 8px 0px 20px 20px;
    }
     p {
         text-indent: 1.5em;
         text-align: justify;
-        margin: 0px !important;
-        padding: 0px !important;
     }
+    @media screen and (max-width:900px){
+        .img.art_small_img, .img.art_middle_img, .img.art_big_img{
+            float: none;
+            margin: 0 0 10px;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    
 </style>
 <div id="main">
     <section class="section main-section">
