@@ -7,7 +7,8 @@ $articles     = array(
                     'sri-lanka-country'         => 'Шри-Ланка',
                     'egypt-country'             => 'Египет',
                     'turkey-country'            => 'Турция',
-                    'montenegro-country'        => 'Черногория');
+                    'montenegro-country'        => 'Черногория',
+                    'austria-country'           => 'Австрия');
 
 if (file_exists($article_path)) {
     $header_title    = $articles[$id];

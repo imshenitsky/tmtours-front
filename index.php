@@ -10,45 +10,45 @@ include 'header.php';
 						<h1>Landing page</h1>
 						<div class="main-gallery">
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider_uae.jpg" alt="image description">
+								<img class="flex-image" src="images/slider_uae.jpg" alt="united-arab-emirates">
 								<div class="slider-info">
 									<h3>ОАЭ</h3>
-									<a href="articles/united-arab-emirates">О стране</a>
+									<a href="articles/united-arab-emirates">Роскошь востока</a>
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider_are.jpg" alt="image description">
+								<img class="flex-image" src="images/slider_are.jpg" alt="egypt-country">
 								<div class="slider-info">
 									<h3>ЕГИПЕТ</h3>
 									<p><a href="articles/egypt-country">Отдых на море</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider-montenegro.jpg" alt="image description">
+								<img class="flex-image" src="images/slider-montenegro.jpg" alt="montenegro-country">
 								<div class="slider-info">
 									<h3>ЧЕРНОГОРИЯ</h3>
 									<p><a href="articles/montenegro-country">Вершины величественных гор</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider-turkey.jpg" alt="image description">
+								<img class="flex-image" src="images/slider-turkey.jpg" alt="turkey-country">
 								<div class="slider-info">
 									<h3>ТУРЦИЯ</h3>
 									<p><a href="articles/turkey-country">Страна семейного отдыха</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider_sri.jpg" alt="image description">
+								<img class="flex-image" src="images/slider_sri.jpg" alt="sri-lanka-country">
 								<div class="slider-info">
 									<h3>ШРИ-ЛАНКА</h3>
 									<p><a href="articles/sri-lanka-country">На берегу океана</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider_ski3.jpg" alt="image description">
+								<img class="flex-image" src="images/slider_ski3.jpg" alt="austria-country">
 								<div class="slider-info">
 									<h3>АВСТРИЯ</h3>
-									<p>Отдых на борде</p>
+									<p><a href="articles/austria-country">Овощам здесь не место</a></p>
 								</div>
 							</div>
 						</div>
@@ -182,10 +182,10 @@ include 'header.php';
 							<div class="partners-item">
 								<div class="holder">
 									<div class="visual">
-										<a href="#"><img src="images/joinuo.png" alt="image description"></a>
+										<a href="#"><img src="images/operator_pegas.jpg" alt="image description"></a>
 									</div>
-									<span class="name"><a href="#">JoinUP!</a></span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id</p>
+									<span class="name"><a href="#">PEGAS</a></span>
+									<p>Высококачественная организация отдыха в самых красивых местах мира, в популярных отелях, которые пользуются у туристов высоким спросом по всем ценовым категориям, обеспечение надежных авиаперевозок известными украинскими авиакомпаниями, конкурентноспособные цены</p>
 								</div>
 							</div>
 							<div class="partners-item">
@@ -193,26 +193,26 @@ include 'header.php';
 									<div class="visual">
 										<a href="#"><img src="images/joinuo.png" alt="image description"></a>
 									</div>
-									<span class="name"><a href="#">JoinUP!</a></span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id</p>
+									<span class="name"><a href="#">Join UP</a></span>
+									<p>Широкий выбор туров более, чем в 40 стран мира, включая путешествие по Украине по самым выгодным ценам от туроператора</p>
 								</div>
 							</div>
 							<div class="partners-item">
 								<div class="holder">
 									<div class="visual">
-										<a href="#"><img src="images/joinuo.png" alt="image description"></a>
+										<a href="#"><img src="images/operator_tpg.jpg" alt="image description"></a>
 									</div>
-									<span class="name"><a href="#">JoinUP!</a></span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id</p>
+									<span class="name"><a href="#">TPG</a></span>
+									<p>Предоставляет замечательные туры в более 120 стран мира с вылетом из Киева, Харькова, Львова, Днепропетровска, Одессы, Запорожья и других городов Украины. С TPG работают 7220 турагенств</p>
 								</div>
 							</div>
 							<div class="partners-item">
 								<div class="holder">
 									<div class="visual">
-										<a href="#"><img src="images/joinuo.png" alt="image description"></a>
+										<a href="#"><img src="images/operator_anex.jpg" alt="image description"></a>
 									</div>
-									<span class="name"><a href="#">JoinUP!</a></span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id</p>
+									<span class="name"><a href="#">ANEX TOUR</a></span>
+									<p>В Украине предлагает отдых от эконом класса до элитного VIP уровня по всем направлениям. Широчайший ассортимент отельной базы и видов отдыха постоянно обновляется, а качество сервиса улучшается</p>
 								</div>
 							</div>
 						</div>

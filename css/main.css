@@ -2494,13 +2494,13 @@ body:not(.index) .logo,
 }
 
 .list {
-  margin: 0 0 20px;
+  margin: 0 15px 20px;
   padding: 0;
   list-style: none;
 }
 
 .list li {
-  padding: 0 0 0 18px;
+  padding: 3px 0 0 18px;
   position: relative;
 }
 
