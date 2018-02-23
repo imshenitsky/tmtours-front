@@ -10,7 +10,7 @@ include 'header.php';
 						<h1>Landing page</h1>
 						<div class="main-gallery">
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider_uae.jpg" alt="united-arab-emirates">
+								<img class="flex-image" src="images/slider-uae-2.1.jpg" alt="united-arab-emirates">
 								<div class="slider-info">
 									<h3>ОАЭ</h3>
 									<a href="articles/united-arab-emirates">Роскошь востока</a>
@@ -191,7 +191,7 @@ include 'header.php';
 							<div class="partners-item">
 								<div class="holder">
 									<div class="visual">
-										<a href="#"><img src="images/joinuo.png" alt="image description"></a>
+										<a href="#"><img src="images/operator_joinup.png" alt="image description"></a>
 									</div>
 									<span class="name"><a href="#">Join UP</a></span>
 									<p>Широкий выбор туров более, чем в 40 стран мира, включая путешествие по Украине по самым выгодным ценам от туроператора</p>
@@ -200,7 +200,7 @@ include 'header.php';
 							<div class="partners-item">
 								<div class="holder">
 									<div class="visual">
-										<a href="#"><img src="images/operator_tpg.jpg" alt="image description"></a>
+										<a href="#"><img src="images/operator_tpg.png" alt="image description"></a>
 									</div>
 									<span class="name"><a href="#">TPG</a></span>
 									<p>Предоставляет замечательные туры в более 120 стран мира с вылетом из Киева, Харькова, Львова, Днепропетровска, Одессы, Запорожья и других городов Украины. С TPG работают 7220 турагенств</p>
@@ -209,7 +209,7 @@ include 'header.php';
 							<div class="partners-item">
 								<div class="holder">
 									<div class="visual">
-										<a href="#"><img src="images/operator_anex.jpg" alt="image description"></a>
+										<a href="#"><img src="images/operator_anex.png" alt="image description"></a>
 									</div>
 									<span class="name"><a href="#">ANEX TOUR</a></span>
 									<p>В Украине предлагает отдых от эконом класса до элитного VIP уровня по всем направлениям. Широчайший ассортимент отельной базы и видов отдыха постоянно обновляется, а качество сервиса улучшается</p>

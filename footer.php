@@ -48,6 +48,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
 		<link rel="stylesheet" href="/css/animate.css" type="text/css" />
 		<link rel="stylesheet" href="/css/main.css" type="text/css" />
+		<link rel="stylesheet" href="/css/custom.css" type="text/css" />
 		<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="/js/wow.js"></script>
 		<script type="text/javascript" src="/js/plugins-scroll.js"></script>

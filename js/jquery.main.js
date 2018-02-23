@@ -153,7 +153,8 @@ function initSlider(){
 					settings: {
 					slidesToShow: 1,
 					arrows: false,
-					dots: true
+					dots: true,
+                    adaptiveHeight: true
 					}
 				}
 			]
