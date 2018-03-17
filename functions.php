@@ -1,4 +1,8 @@
 <?php
+function app_url() {
+    return sprintf('%s://%s', $_SERVER['REQUEST_SCHEME'], $_SERVER['SERVER_NAME']);
+}
+
 function api_url() {
   return (php_env() == 'development') ? 'http://localhost:3000/api' : 'https://tmtours-admin.herokuapp.com/api';
 }

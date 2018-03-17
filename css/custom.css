@@ -83,3 +83,25 @@ p {
     border-radius: 0px;
     background-color: #3f3250;
 }
+/* Social buttons
+*/
+.ssba {
+    margin-top: 10px;
+}
+
+.ssba img {
+    width: 25px;
+    padding: 6px;
+    border: 0;
+    box-shadow: none;
+    display: inline;
+    vertical-align: middle;
+    box-sizing: unset;
+}
+
+.ssba, .ssba a {
+    text-decoration: none;
+    background: none;
+    font-size: 12px;
+    font-weight: normal;
+}

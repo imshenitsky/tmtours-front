@@ -1,4 +1,4 @@
-<?php include 'functions.php'; ?>
+<?php require_once 'functions.php'; ?>
 <?php
     $nav_prefix = '/';
     if (isset($_SERVER['SCRIPT_NAME']) && $_SERVER['SCRIPT_NAME'] == '/index.php'){
@@ -12,6 +12,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="format-detection" content="telephone=no"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <?php if (isset($article_url)) { ?>
+            <meta property="og:url"           content="<?= $article_url; ?>" />
+            <meta property="og:type"          content="website" />
+            <meta property="og:title"         content="<?= $article_title; ?>" />
+            <meta property="og:description"   content="<?= $article_tagline; ?>" />
+            <meta property="og:image"         content="<?= $article_share_image; ?>" />
+            <meta property="og:image:url"     content="<?= $article_share_image; ?>" />
+            <meta property="og:image:width"   content="600" />
+            <meta property="og:image:height"  content="600" />
+        <?php } ?>
 		<title><?= $header_title; ?></title>
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
