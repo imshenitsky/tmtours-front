@@ -10,10 +10,10 @@ include 'header.php';
 						<h1>Landing page</h1>
 						<div class="main-gallery">
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider-uae-2.1.jpg" alt="united-arab-emirates">
+								<img class="flex-image" src="images/slider_ski3.jpg" alt="austria-country">
 								<div class="slider-info">
-									<h3>ОАЭ</h3>
-									<a href="articles/united-arab-emirates">Роскошь востока</a>
+									<h3>АВСТРИЯ</h3>
+									<p><a href="articles/austria-country">Овощам здесь не место</a></p>
 								</div>
 							</div>
 							<div class="flex-img-holder">
@@ -45,20 +45,28 @@ include 'header.php';
 								</div>
 							</div>
 							<div class="flex-img-holder">
-								<img class="flex-image" src="images/slider_ski3.jpg" alt="austria-country">
+								<img class="flex-image" src="images/slider-uae-1.jpg" alt="united-arab-emirates">
 								<div class="slider-info">
-									<h3>АВСТРИЯ</h3>
-									<p><a href="articles/austria-country">Овощам здесь не место</a></p>
+									<h3>ОАЭ</h3>
+									<a href="articles/united-arab-emirates">Роскошь востока</a>
+								</div>
+							</div>
+							<div class="flex-img-holder">
+								<img class="flex-image" src="images/slider-czech.jpg" alt="czech republic">
+								<div class="slider-info">
+									<h3>ЧЕХИЯ</h3>
+									<a href="articles/czech-country">Удовольствие в любой сезон</a>
 								</div>
 							</div>
 						</div>
 						<div class="main-gallery-nav">
-							<div>ОАЭ</div>
+							<div>АВСТРИЯ</div>
 							<div>ЕГИПЕТ</div>
 							<div>ЧЕРНОГОРИЯ</div>
 							<div>ТУРЦИЯ</div>
 							<div>ШРИ-ЛАНКА</div>
-							<div>АВСТРИЯ</div>
+							<div>ОАЭ</div>
+							<div>ЧЕХИЯ</div>
 						</div>
 					</div>
 				</section>

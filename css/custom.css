@@ -76,3 +76,10 @@ p {
         width: 100%;
     }
 }
+
+/* Showcase
+*/
+.product-list .order {
+    border-radius: 0px;
+    background-color: #3f3250;
+}

@@ -17,11 +17,13 @@ $(function () {
                 str_result += '      <ul>';
                 str_result += '        <li>' + item.hotel.display_name + '</li>';
                 str_result += '        <li>' + item.price + '</li>';
-                str_result += '        <li>' + item.departure + '</li>';
+                str_result += '        <li>' + item.departure_to_sentence + '</li>';
+                str_result += '        <li>' + item.board_sentence + '</li>';
+                str_result += '        <li>' + item.room_type_sentence + '</li>';
                 str_result += '      </ul>';
-                str_result += '      <p>' + item.description + '</p>';
+                str_result += '      <p>' + (item.description ? item.description : '') + '</p>';
                 str_result += '    </span>';
-                str_result += '    <span id="' + item.id + '" class="order">Заказать</span>';
+                str_result += '    <span id="' + item.id + '" class="order">Подробнее</span>';
                 str_result += '    <div class="head">';
                 str_result += '      <span class="info-panel">';
                 str_result += '        <strong class="country">' + item.country + '</strong>';

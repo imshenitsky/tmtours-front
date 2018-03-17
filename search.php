@@ -11,8 +11,8 @@ include 'header.php';
         <div class="center">
             <h1><?= $header_title; ?></h1>
             <div style="padding-left: 180px;">
-                <div id="tour_search_module"></div>
-                <script src="https://www.ittour.com.ua/tour_search.jsx?id=298605DGO164481358193212&ver=1&type=2970"></script>
+                <div id="tour_search_module_mod2"></div>
+                <script  src="http://module.ittour.com.ua/tour_search.jsx?id=621304D836GN304016886853&ver=2&type=2970"></script>
             </div>
         </div>
     </section>
