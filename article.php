@@ -66,7 +66,7 @@ $body_class     = '';
 include 'header.php';
 ?>
 <div id="main">
-    <section class="section main-section">
+    <section class="section main-section article">
         <div class="center">
             <h1><?= $header_title; ?></h1>
             <?= $article_content; ?>

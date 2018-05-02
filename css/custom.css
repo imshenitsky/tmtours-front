@@ -1,5 +1,9 @@
 /* Articles styling
 */
+.article p {
+    text-indent: 1.5em;
+    text-align: justify;
+}
 .img.art_small_img {
     max-width: 280px;
 }
@@ -20,10 +24,6 @@
 .img.rightimg  {
     float: right;
     margin: 8px 0px 20px 20px;
-}
-p {
-    text-indent: 1.5em;
-    text-align: justify;
 }
 
 /* Partners block styling
